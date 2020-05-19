@@ -1,0 +1,8 @@
+framework:
+  messenger:
+    transports:
+      receiver: 
+        dsn: '%env(MESSENGER_TRANSPORT_DSN)%'
+        options:
+          queues:
+            q-receiver: ~

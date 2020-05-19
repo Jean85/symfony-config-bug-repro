@@ -1,0 +1,7 @@
+framework:
+  messenger:
+    transports:
+      receiver: 
+        dsn: 'facile-it-mongodb://insight'
+        options:
+          queue_name: something
