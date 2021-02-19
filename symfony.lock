@@ -14,6 +14,9 @@
     "psr/log": {
         "version": "1.1.3"
     },
+    "symfony/amqp-messenger": {
+        "version": "v5.2.3"
+    },
     "symfony/cache": {
         "version": "v5.0.8"
     },
@@ -38,6 +41,12 @@
     },
     "symfony/dependency-injection": {
         "version": "v5.0.8"
+    },
+    "symfony/deprecation-contracts": {
+        "version": "v2.2.0"
+    },
+    "symfony/doctrine-messenger": {
+        "version": "v5.2.3"
     },
     "symfony/dotenv": {
         "version": "v5.0.8"
@@ -89,6 +98,9 @@
             "src/Kernel.php"
         ]
     },
+    "symfony/http-client-contracts": {
+        "version": "v2.3.1"
+    },
     "symfony/http-foundation": {
         "version": "v5.0.8"
     },
@@ -107,17 +119,23 @@
             "config/packages/messenger.yaml"
         ]
     },
-    "symfony/mime": {
-        "version": "v5.0.8"
+    "symfony/polyfill-intl-grapheme": {
+        "version": "v1.22.1"
     },
-    "symfony/polyfill-intl-idn": {
-        "version": "v1.17.0"
+    "symfony/polyfill-intl-normalizer": {
+        "version": "v1.22.1"
     },
     "symfony/polyfill-mbstring": {
         "version": "v1.17.0"
     },
     "symfony/polyfill-php73": {
         "version": "v1.17.0"
+    },
+    "symfony/polyfill-php80": {
+        "version": "v1.22.1"
+    },
+    "symfony/redis-messenger": {
+        "version": "v5.2.3"
     },
     "symfony/routing": {
         "version": "4.2",
@@ -135,6 +153,9 @@
     },
     "symfony/service-contracts": {
         "version": "v2.0.1"
+    },
+    "symfony/string": {
+        "version": "v5.2.3"
     },
     "symfony/var-dumper": {
         "version": "v5.0.8"
